@@ -1,4 +1,4 @@
-```python
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from datetime import datetime, timezone
@@ -65,4 +65,3 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=port
     )
-```
